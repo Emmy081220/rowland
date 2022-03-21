@@ -24,6 +24,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+ image-rendering: optimizedSpeed;   
+}
+
 /* body {
     width: 100%;
 } */
