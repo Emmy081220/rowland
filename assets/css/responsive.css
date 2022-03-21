@@ -1,0 +1,753 @@
+@media screen and (max-width: 320px)  {
+    .navbar {
+        padding: 1em 30px;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+    .line {
+        width: 25px;
+        height: 3px;
+    }
+
+    .nav-menu {
+        height: 61vh;
+    }
+
+    .nav-item {
+        font-size: .9em;
+    }
+
+    .subtitle-container {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 1.45em;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding: .7em 1em;
+        text-align: center;
+    }
+
+    .work-section {
+        padding: 1em .6em;
+    }
+
+    .work-section-title {
+        font-size: 1.4em;
+        margin-top: .4em;
+    }
+
+    .card {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+    .about-title, .contact-title {
+        font-size: 1.3em;
+    }
+
+    .fourth-section-title {
+        font-size: 1.3em;
+        margin-bottom: .6em;
+    }
+
+    input[type = submit] {
+        padding: 1em 1.5em;
+    }
+
+    .footer-text {
+        font-size: 1.3em;
+    }
+
+}
+
+
+
+/* 
+**********************************************
+    SECOND MEDIA QUERY     *
+                           *
+**********************************************
+*/
+@media screen and (min-width: 320px) and (max-width: 429px) {
+    .navbar {
+        padding: 1em 30px;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+    .line {
+        width: 25px;
+        height: 3px;
+    }
+
+    .nav-menu {
+        height: 61vh;
+        margin-left: 1em;
+    }
+
+    .nav-item {
+        font-size: .9em;
+    }
+
+    .subtitle-container {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding: .7em 1em;
+        text-align: center;
+    }
+
+    .work-section {
+        padding: 1em .6em;
+    }
+
+    .work-section-title {
+        font-size: 1.4em;
+        margin-top: .4em;
+    }
+
+    .card {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+    .about-title, .contact-title {
+        font-size: 1.4em;
+    }
+
+    .fourth-section-title {
+        font-size: 1.3em;
+        margin-bottom: .6em;
+    }
+
+    input[type = submit] {
+        padding: 1em 1.5em;
+    }
+
+    .footer-text {
+        font-size: 1.3em;
+    }
+}
+
+
+
+/* 
+**********************************************
+    THIRD MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 429px) and (max-width: 537px) {
+    .navbar {
+        padding: 1.5em 40px;
+    }
+
+    .nav-menu {
+        margin-left: 1.4em;
+        height: 62vh;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .title {
+        font-size: 1.7em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding: .8em 1em;
+        font-size: 1.05em;
+    }
+
+    .work-section-title {
+        font-size: 1.8em;
+    }
+
+    .card-content, .about-text {
+        font-size: 1.1em;
+    }
+
+    .fourth-section-title, .contact-title {
+        font-size: 1.8em;
+    }
+
+    label {
+        font-size: 1.3em;
+    }
+
+    input[type = submit] {
+        padding: 1.2em 1.7em;
+        font-size: 1.2em;
+    }
+
+    .footer-text {
+        font-size: 1.7em;
+    }
+
+    .social-img {
+        width: 30px;
+    }
+
+}
+
+
+
+/* 
+**********************************************
+    FOURTH MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 537px) and (max-width: 600px) {
+    .nav-menu {
+        height: 63vh;
+    }
+
+    .hero-img {
+        width: 70%;
+    }
+
+    .subtitle {
+        font-size: 1.25em;
+    }
+
+    .work-section-title {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .about-title, .contact-title {
+        font-size: 1.6em;
+    }
+
+    .about-img, .contact-img {
+        width: 95%;
+    }
+
+    .fourth-section-title {
+        font-size: 1.8em;
+    }
+}
+
+
+
+/* 
+**********************************************
+    FIFTH MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 600px) and (max-width: 708px) {
+    .nav-menu {
+        position: fixed;
+        background-color: #000;
+        top: -100%;
+        width: 80%;
+        height: 64vh;
+        border-radius: 13px;
+        transition: .6s;
+        box-shadow: 0 13px 7px -8px #888;
+        margin:0 1em;
+    }
+
+    .nav-item {
+        margin: 1em 0 2.3em 0;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2.1em;
+    }
+
+    .hero-img, .about-img, .contact-img {
+        width: 70%;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .about-text {
+        width: 90%;
+        text-align: center;
+        margin-left: 1.3em;
+    }
+
+    .contact-content {
+        padding: 3em;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    
+}
+
+.active {
+    top: 11%;
+}
+
+
+
+/* 
+**********************************************
+    SIXTH MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 708px) and (max-width: 816px) {
+    .navbar {
+        padding: 1.5em 30px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1.3em;;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        color: #000;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .hero-img, .about-img, .contact-img {
+        width: 63%;
+    }
+
+    .subtitle-container {
+        width: 28%;
+    }
+
+    .subtitle {
+        font-size: 1.34em;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding-left: 1em 1.4em;
+        font-size: 1.2em;
+    }
+
+    .about-title {
+        font-size: 1.7em;
+    }
+
+    .about-content {
+        padding: 0 1.7em;
+    }
+
+    .fourth-section-title {
+        font-size: 1.8em;
+    }
+
+    .contact-content {
+        padding: 0 2.5em;
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .social-img {
+        width: 30px;
+    }
+}
+
+
+
+/* 
+**********************************************
+    SEVENTH MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 816px) and (max-width: 924px) {
+    .navbar {
+        padding: 1.5em 50px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1.3em;;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        color: #000;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding: 1em 1.3em;
+    }
+
+    .hero-content {
+        width: 60%;
+        margin-top: .9em;
+    }
+
+    .hero-img {
+        width: 40%;
+    }
+
+    .title-container {
+        margin-top: .5em;
+    }
+
+    .work-section-title {
+        font-size: 1.8em;
+    }
+
+    .about-title {
+        font-size: 1.9em;
+        margin-top: 1.8em;
+    }
+
+    .about-content-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+
+    .about-content {
+        width: 60%;
+    }
+
+    .contact-title, .fourth-section-title {
+        font-size: 1.8em;
+    }
+
+    .contact-section-content {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .contact-content {
+        width: 50%;
+    }
+
+    .contact-img {
+        width: 40%;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content, .social-icons-container {
+        width: 50%;
+    }
+}
+
+
+
+/* 
+**********************************************
+    EIGHT MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 924px) and (max-width: 1032px) {
+    .navbar {
+        padding: 1.5em 70px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1.3em;;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        color: #000;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 1.5em;
+    }
+
+    .subtitle {
+        font-size: 1.3em;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .hero-content {
+        width: 50%;
+        margin-top: .9em;
+    }
+
+    .hero-img {
+        width: 50%;
+    }
+
+    .title-container {
+        margin-top: .5em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding: .8em 1.2em;
+        font-size: 1.15em;
+    }
+
+    .work-section-title {
+        font-size: 1.8em;
+    }
+
+    .about-title {
+        font-size: 2.1em;
+        margin-top: 1.8em;
+    }
+
+    .about-content-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+
+    .about-content {
+        width: 60%;
+    }
+
+    .contact-title, .fourth-section-title {
+        font-size: 1.8em;
+    }
+
+    .contact-section-content {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .contact-content {
+        width: 50%;
+    }
+
+    .contact-img {
+        width: 50%;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 2em;
+    }
+
+    .footer-content, .social-icons-container {
+        width: 50%;
+    }
+}
+
+
+
+/* 
+**********************************************
+    NINETH MEDIA QUERY     *
+                          *
+**********************************************
+*/
+@media screen and (min-width: 1032px) {
+    .navbar {
+        padding: 1.5em 70px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1.3em;;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        font-size: 1em;
+        color: #000;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 1.5em;
+    }
+
+    .subtitle {
+        font-size: 1.3em;
+    }
+
+    .title {
+        font-size: 2.3em;
+    }
+
+    .hero-content {
+        width: 55%;
+        margin-top: .9em;
+    }
+
+    .hero-img {
+        width: 45%;
+    }
+
+    .title-container {
+        margin-top: .5em;
+    }
+
+    .primary-btn, .secondary-btn {
+        padding: .8em 1.2em;
+        font-size: 1.15em;
+    }
+
+    .work-section-title {
+        font-size: 1.8em;
+    }
+
+    .about-title {
+        font-size: 2.1em;
+        margin-top: 1.4em;
+    }
+
+    .about-content-container {
+        display: flex;
+        width: 100%;
+        padding: 1em 2.3em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+
+    .about-content {
+        width: 60%;
+    }
+
+    .contact-title, .fourth-section-title {
+        font-size: 2.1em;
+    }
+
+    .contact-section-content {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .contact-content {
+        width: 50%;
+    }
+
+    .contact-img {
+        width: 50%;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 4em;
+    }
+
+    .footer-content, .social-icons-container {
+        width: 50%;
+    }
+}
